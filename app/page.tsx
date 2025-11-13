@@ -9,7 +9,7 @@ import { introData, aboutData, contactData } from "@/lib/data";
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
-      <Intro cvUrl={introData.cvUrl} githubUrl={introData.githubUrl} introText={introData.introText} linkedinUrl={introData.linkedinUrl}/>
+      <Intro pictures={introData.pictures} cvUrl={introData.cvUrl} githubUrl={introData.githubUrl} introText={introData.introText} linkedinUrl={introData.linkedinUrl}/>
       <SectionDivider />
       <About aboutText={aboutData.aboutText} />
       <Projects />

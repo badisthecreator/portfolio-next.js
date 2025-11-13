@@ -7,8 +7,6 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-import Untitled from "@/public/Untitled.jpg";
-import Unt from "@/public/Unt.jpg";
 import {copyrightData} from "@/lib/data";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +20,7 @@ export const metadata = {
     description: 'fdfdfdfdf',
     site: '@nextjs',
     creator: '@nextjs',
-    image: Unt,
+    // image: ,
   },
   facebook: {
     title: 'Next.js',
@@ -32,7 +30,7 @@ export const metadata = {
   linkedin: {
     title: 'Next.js',
     description: 'The React Framework for the Web',
-    image: Untitled,
+    // image: ,
   },
 };
 
