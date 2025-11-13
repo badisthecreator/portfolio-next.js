@@ -58,7 +58,7 @@ export const aboutData = {
   aboutText,
 };
 export const contactData = {
-  email: "xxxx@gmail.com",
+  email:     process.env.GMAIL_USER || "SOMETHING@GMAIL.COM",
 };
 
 export const introData = {
