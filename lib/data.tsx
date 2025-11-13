@@ -48,7 +48,7 @@ const aboutText = (
 const introText = (
   <>
     <span className="font-bold">Hello, I'm Ricardo.</span> I'm a&nbsp;
-    <span className="font-bold">Full-Stack Developer</span> with&nbsp;
+    <span className="font-bold">****</span> with&nbsp;
     <span className="font-bold">4-years</span> of experience. I enjoy building&nbsp;
     <span className="italic">solutions</span>. My focus is&nbsp;
     <span className="underline">scalable web apps</span>.

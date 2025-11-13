@@ -11,8 +11,8 @@ import {copyrightData} from "@/lib/data";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Badis | Personal Portfolio",
-  description: "Badis Kefi is a full-stack developer with 4 years of experience.",
+  title: "Personal Portfolio",
+  description: "Im ready for opportunities.",
   icon: "/favicon.ico",
   twitter: {
     card: 'summary_large_image',
