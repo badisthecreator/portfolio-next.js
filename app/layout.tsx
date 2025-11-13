@@ -7,7 +7,6 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-import IslamQuizImg from "@/public/IslamQuiz.png";
 import Untitled from "@/public/Untitled.jpg";
 import Unt from "@/public/Unt.jpg";
 import {copyrightData} from "@/lib/data";

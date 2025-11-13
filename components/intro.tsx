@@ -14,6 +14,7 @@ import { introData } from "@/lib/data";
 type IntroProps = typeof introData;
 
 export default function Intro({
+  pictures,
   introText,
   linkedinUrl,
   githubUrl,
@@ -26,7 +27,7 @@ export default function Intro({
   const getRandomNumber = (min: number, max: number) =>
     Math.floor(Math.random() * (max - min + 1)) + min;
   const [randomPictureValue, setRandomPictureValue] = useState(() =>
-    getRandomNumber(1, 2)
+    getRandomNumber(0, pictures.length - 1)
   );
 
   return (
@@ -46,7 +47,7 @@ export default function Intro({
             }}
           >
             <Image
-              src={`/me-${randomPictureValue}.png`}
+              src={pictures[randomPictureValue]}
               alt="Ricardo portrait"
               width="192"
               height="192"

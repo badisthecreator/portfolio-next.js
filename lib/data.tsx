@@ -62,6 +62,7 @@ export const contactData = {
 };
 
 export const introData = {
+  pictures: ["/me_1.png", "/me_2.png"],
   introText,
   cvUrl: "/cv.pdf",
   linkedinUrl: "https://www.linkedin.com/in/ricardo/",
